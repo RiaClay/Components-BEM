@@ -6,20 +6,19 @@
   </head>
   <body>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <script defer="defer" src="C:\Users\famil\Components-BEM\dropdown.js" type="text/javascript"></script>
+    <script defer="defer" src="./dropdown.js" type="text/javascript"></script>
 
 	<section class="header">
 
 		<div class="titleHead">Header</div>
 			
 			<div class="dropdown">
-				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown
-				<span class="caret"></span></button>
-				<ul id="clickDropdown" class="dropdown-content">
-					<li><a href="#">Lambda</a></li>
-					<li><a href="#">Google</a></li>
-					<li><a href="#">MDN</a></li>	
-				</ul>
+				<button onclick="myFunction()" class="dropdownbtn">Dropdown</button>
+				<div id="clickDropdown" class="dropdown-content">
+					<a href="#">Lambda</a>
+					<a href="#">Google</a>
+					<a href="#">MDN</a>	
+        </div>
 			</div>
 
 	</section>

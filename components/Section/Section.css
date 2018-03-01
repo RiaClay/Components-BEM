@@ -1,0 +1,24 @@
+.header { 
+ border-style: solid;
+ border-color: pink;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.leftBox {
+ border-style: solid;
+ border-color: pink;
+ width: 49.3%;
+ float: left;
+ 
+}
+
+.rightBox {
+    border-style: solid;
+    border-color: pink;
+    width: 50%;
+    float: right;
+    float: top;
+   }
